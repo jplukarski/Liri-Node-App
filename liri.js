@@ -9,7 +9,7 @@ var spotify = new Spotify(spotify);
 var omdbApi = keys.omdb;
 var bandsInTownApi = keys.bandsInTown.api_key;
 var fs = require("fs");
-
+console.log("Bands In Town API Key: " + bandsInTownApi);
 
 //The argv inputs
 var argumentInput = process.argv.slice(3).join(" ");
@@ -99,8 +99,6 @@ function searchAPIs() {
                 }
             }
         });
-
-
     }
 }
 searchAPIs();

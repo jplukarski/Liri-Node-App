@@ -10,3 +10,5 @@ exports.bandsInTown = {
 exports.omdb = {
     omdb_API: process.env.omdb_API
 }
+
+console.log(omdb_API);
